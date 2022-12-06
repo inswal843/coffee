@@ -1,0 +1,444 @@
+@charset "utf-8";
+@font-face{
+   font-family:'Gmarket';
+   src:url('../font/GmarketSansTTFMedium.ttf') format('truetype');
+}
+
+
+/* --------------------------------------------------------------------- */
+
+#ad{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+
+#ad img{
+    width: 100%;
+    height: 500px;
+}
+
+
+/*------------------ section <Diary>시작---------------- */
+
+#diary p.menuname{
+    position: relative;
+    top: -80px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    color: rgb(52,152,219);
+    /* border-bottom: 3px solid rgb(113,183,230); */
+}
+
+
+
+section#diary{
+    position: relative;
+    top: 90px;
+    width: 1200px;
+    height: 430px;
+    margin: 0 auto;
+    /* border: 1px solid red */
+    background-color: rgba(186,220,243,0.7);
+    /* z-index: 20; */
+    border-radius: 30px;
+}
+
+#diary h2{
+    display: none;
+}
+
+#more1{
+    position: absolute;
+    right: 0;
+    top: -50px;
+    
+}
+#diary ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#diary p{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(78,48,22);
+}
+
+
+#diary ul{
+    /* border: 1px solid red; */
+    position: relative;
+    top: -20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+#diary01>img{
+    background-color: #2a7c2f;
+}
+
+
+
+#diary ul li{
+    float: left;
+    /* margin-right: 10px; */
+    /* border: 1px solid red; */
+    width: 270px;
+    height: auto;
+    margin-left: 23px;
+    
+ }
+
+
+#diary li img{
+    width: 270px;
+    height: 300px;
+    /* border: 1px solid red; */
+    
+} 
+
+/*-----------------------------------------------------------------*/
+
+/*------------------ section <Mug>시작---------------- */
+
+section#mug{
+    position: relative;
+    top: 280px;
+    width: 1200px;
+    height: 430px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    background-color: rgba(186,220,243,0.7);
+    /* z-index: 20; */
+    border-radius: 30px;
+}
+
+#mug h2{
+    display: none;
+}
+
+#more2{
+    position: absolute;
+    right: 0;
+    top: -50px;
+}
+
+#mug p.menuname{
+    position: relative;
+    top: -80px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    color: rgb(52,152,219);
+    /* border-bottom: 3px solid rgb(113,183,230); */
+}
+
+
+#mug ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#mug p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(78,48,22);
+}
+
+
+#mug ul{
+    
+}
+
+
+#mug ul li{
+    margin: 0 auto;
+    float: left;
+    margin-left: 23px;
+    /* border: 1px solid red; */
+    width: 270px
+ }
+
+ #mug ul li:first-child{
+    /* margin-left: 23px; */
+ }
+
+#mug li img{
+    width: 270px;
+    height: 300px;
+    box-sizing: border-box;
+} 
+
+/*-----------------------------------------------------------------*/
+
+/*------------------ section <three>시작---------------- */
+ #three{
+    position: relative;
+    top: 450px;
+    /* border: 3px solid teal; */
+    box-sizing: border-box;
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+    z-index: 10;
+    background-color: rgba(186,220,243,0.7);
+    border-radius: 30px;
+ }  
+
+#three div{
+    position: absolute;
+    width: 360px;
+    /* border: 1px solid red; */
+    margin: 20px 20px;
+    box-sizing: border-box;
+   
+}
+
+ #three .bottom{
+    position: absolute;
+    top: 10px;
+    height: 900px;}
+
+#three div#tumbler{
+    position: absolute;
+    left: 0;
+    /* border: 3px solid red; */
+    box-sizing: border-box;
+}
+
+ 
+ #three div#stationery{
+    
+    position: absolute;
+    left: 400px;
+    /* border: 3px solid red; */
+    box-sizing: border-box;
+
+ }
+
+ #three div#others{
+    position: absolute;
+    left: 800px;
+    /* border: 3px solid red; */
+    box-sizing: border-box;
+
+ }
+
+
+
+
+ #three p.menuname{
+    position: relative;
+    top: -70px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    color: rgb(52,152,219);
+    /* border-bottom: 3px solid rgb(113,183,230); */
+ }
+
+
+#three h3{
+    display: none;
+ }
+
+
+#three .bottom{
+    position: relative;
+    top: 0;
+}
+
+
+
+
+#tumbler{
+    position: relative;
+    /* width: 350px; */
+    /* box-sizing: border-box; */
+    height: 750px;
+    margin: 0 auto;
+    
+}
+
+
+#tumbler{
+    position: absolute;
+    top: 0;
+}
+
+#three::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bottom{
+    float: left;
+    
+}
+
+
+#three .door{
+    position: absolute;
+    width: 360px;
+    height: 300px;
+  
+}
+
+
+
+.bottom>a{
+    display: block;
+    width: 395px;
+    height: 300px;
+   
+    /* border: 1px solid black; */
+}
+
+#three li{
+    /* background-color: rgb(227, 228, 245); */
+    margin: 20px 0;
+}
+.small_img{
+    width: 150px;
+    height: 150px;
+    padding: 10px 0 10px 20px;
+    box-sizing: border-box;
+    
+}
+
+.small_img:hover{
+    transform: scale(1.07);
+    transition-duration: 0.8s;
+}
+
+#stationery{
+    width: 400px;
+    height: 750px;
+    margin: 0 auto;
+    /* border: 1px solid purple; */
+
+}
+
+
+
+
+
+#others{
+    width: 398px;
+    height: 750px;
+    margin: 0 auto;
+    /* border: 1px solid yellow; */
+}
+
+#others .othersdoor{
+    background-color: rgb(223, 222, 217);
+}
+
+.bottom ul{
+  position: relative;
+  top: 30px;
+
+}
+
+.bottom li{
+    /* border: 2px solid teal; */
+}
+
+.bottom_t span{
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgb(78,48,22);
+}
+
+.bottom_t span:hover{
+    color: rgb(52,152,219);
+}
+
+.bottom_t .small_s{
+    font-size: 16px;
+}
+
+
+.bottom li::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.bottom li p{
+    float: right;
+}
+
+
+.bottom li p{
+    position: relative;
+    top: 40px;
+    right: 20px;
+    
+}
+
+
+.see_more{
+    display: block;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(254, 97, 97);
+    cursor: pointer;
+    background-image: linear-gradient(transparent calc(100% -3px), #000 3px);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: 0.8s;
+}
+
+.see_more.underlineover{
+    background-image: linear-gradient(transparent 60%, #f8cd07 40%);
+}
+
+.underlineover:hover{
+    background-size: 100% 100%;
+ }
+#more{  
+    position: absolute;
+    bottom: 10px;
+    padding-top: 10px;
+    display: block;
+    left: 50%;
+    margin-left: -75px;
+    width: 200px;
+    height: 50px;
+    z-index: 100;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 22px;
+} 
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+footer{
+    
+    top: 550px; 
+  
+}
